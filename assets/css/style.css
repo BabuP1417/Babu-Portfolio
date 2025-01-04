@@ -535,7 +535,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 
-.skills {
+/* .skills {
     min-height: 90vh;
     background: linear-gradient(to bottom, #000000, #000000);
 }
@@ -549,12 +549,12 @@ header .navbar ul li a:hover {
 }
 
 .skills .container {
-    /* display:grid;
+    display:grid;
     grid-template-columns: repeat(6, 1fr);
     justify-content:center;
     align-items:center;
     text-align:center;
-    grid-gap:1.8rem; */
+    grid-gap:1.8rem;
     background: rgba(0, 0, 22, 0.4);
     color: #fff;
     border-radius: 1rem;
@@ -605,7 +605,71 @@ header .navbar ul li a:hover {
     font-weight: 500;
     font-family: "Poppins";
     margin-left: 0.5rem;
+} */
+
+
+
+
+
+
+.skills {
+    min-height: 90vh;
+    background: linear-gradient(to bottom, #000000, #000000);
 }
+
+.skills h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.skills .heading span {
+    color: rgb(255, 230, 0);
+}
+
+.skills .container {
+    color: #fff;
+}
+.skill-bars{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    justify-content: center;
+}
+.skills .container .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 22, 0.9);
+    transition: 0.2s;
+    width: 170px;
+}
+
+.skills .container .bar:hover {
+    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.skills .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skills .container .bar .info i {
+    font-size: 4rem;
+}
+
+.skills .container .bar .info span {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin-left: 0.5rem;
+}
+
 
 /* skills media queries starts*/
 
